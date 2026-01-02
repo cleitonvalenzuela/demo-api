@@ -1,0 +1,7 @@
+{
+    "routes": [{ "src": "/api/redirect", "dest": "/api/redirect" }],
+    "headers": [{
+        "source": "/(.*)",
+        "headers": [{ "key": "Access-Control-Allow-Origin", "value": "*" }]
+    }]
+}
